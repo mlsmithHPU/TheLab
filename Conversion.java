@@ -64,6 +64,15 @@ public class Conversion {
       System.out.println("3. Convert to feet");
       System.out.println("4. Quit the program");
    }
+   /**
+    * This method converts meters to inches
+    * @param distance
+    * @return distance*39.3701 (the meter to inch ratio)
+    */
+   public static double showInches(double distance)
+   {
+      return distance*39.3701; 
+   }
 
     public static void showFeet(double newDistance){
        
