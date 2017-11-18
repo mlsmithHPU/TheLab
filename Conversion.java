@@ -65,4 +65,10 @@ public class Conversion {
       System.out.println("4. Quit the program");
    }
 
+    public static void showFeet(double newDistance){
+       
+       System.out.println(newDistance*3.2808);
+       
+   }
+
 }
